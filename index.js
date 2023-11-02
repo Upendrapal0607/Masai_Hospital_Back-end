@@ -8,7 +8,7 @@ app.use(cors())
 app.use(express.json())
 app.use("/board",BoardRoute)
 app.get("/",(req,res)=>{
-    res.send("welcome to the Masai Hospital")
+    res.send("welcome to the backend")
 })
 
 app.listen(8080,async ()=>{

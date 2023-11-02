@@ -27,10 +27,10 @@ try{
      }
 })
 BoardRoute.patch("/update/:id",async(req,res)=>{
-    const {id}= req.params
-const Data= req.body
+//     const {id}= req.params
+// const Data= req.body
 
- console.log({Data,id})
+//  console.log({Data,id})
 try{
         //  const UpdatedData= BoardModel.FindByIdAndUpdate({_id:id},Data);
          res.send({messase :"update successful"})
